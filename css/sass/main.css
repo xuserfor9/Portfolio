@@ -236,7 +236,7 @@ header .box .div-nameocupation .ocupation {
 
 .contact {
   padding: 0;
-  margin: 0;
+  margin: 0 0 55px;
 }
 
 .contact .box-contact {
@@ -304,22 +304,96 @@ header .box .div-nameocupation .ocupation {
   max-width: 100%;
   min-width: 100%;
   min-height: 5rem;
-  max-width: 20rem;
+  max-height: 20rem;
   padding: 0.8rem 0.6rem;
+  margin: 0 0 30px 0;
   border: 1px solid #52489c;
+  outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 .contact .box-contact .form .btn {
-  padding: 18px 32px;
+  background: url("../../src/send.svg");
+  background-repeat: no-repeat;
+  background-size: 1.2rem, 1.2rem;
+  background-origin: content-box;
+  background-position: -26px -1px;
+  padding: 18px 32px 18px 60px;
   margin: 0 auto;
   cursor: pointer;
+  color: #52489c;
+  border: 1px solid #52489c;
 }
 
-.contact .box-contact .form::after {
-  content: '\f1d8';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
+.rrss {
+  background: #0C1821;
+  width: 100%;
+  height: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rrss .box-rrss {
+  width: 62.5rem;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.rrss .box-rrss .div-rrss {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.rrss .box-rrss .div-rrss .facebook {
+  background: #3b5998;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 13px 34px;
+  margin: 0;
+}
+
+.rrss .box-rrss .div-rrss .instagram {
+  background: #c13584;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 13px 34px;
+  margin: 0;
+}
+
+.rrss .box-rrss .div-rrss .youtube {
+  background: #ff0000;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 13px 34px;
+  margin: 0;
+}
+
+.rrss .box-rrss .div-rrss .github {
+  background: #333;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 13px 34px;
+  margin: 0;
+}
+
+.rrss .box-rrss .div-rrss .twitter {
+  background: #1da1f2;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 13px 34px;
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */
