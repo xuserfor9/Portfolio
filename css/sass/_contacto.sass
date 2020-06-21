@@ -1,0 +1,74 @@
+@import _variables
+
+.contact
+    padding: 0 
+    margin: 0
+
+    .box-contact
+        max-width: 62.5rem
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        padding: 0
+        margin: 0 auto
+
+        .title-contact
+            width: 100%
+            text-align: center
+            color: $blue
+            padding: 0
+            margin: 0 0 2rem 0
+
+        .form
+            width: 50%
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+            padding: 0
+            margin: 0
+
+            .name
+                width: 47%
+                color: $blue
+                padding: 0
+                margin: 0 0 0.8rem 0
+
+            .email
+                @extend .name
+
+            input[type="text"]
+                width: 47%
+                padding: 0.8rem 0.6rem
+                margin: 0 0 1rem 0
+                border: transparent
+                border: 1px solid $blue
+                outline: none
+                box-sizing: border-box
+
+            input[type="text"]
+                @extend input[type="text"]
+
+            .message
+                width: 100%
+                color: $blue
+                padding: 0
+                margin: 0 0 0.8rem 0
+
+            textarea
+                max-width: 100%
+                min-width: 100%
+                min-height: 5rem
+                max-width: 20rem
+                padding: 0.8rem 0.6rem
+                border: 1px solid $blue
+                box-sizing: border-box
+
+            .btn
+                padding: 18px 32px
+                margin: 0 auto
+                cursor: pointer
+            &::after
+                content: '\f1d8'
+                font-family: 'Font Awesome 5 Free'
+                font-weight: 900
+                    
